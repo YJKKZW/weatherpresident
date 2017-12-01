@@ -22,13 +22,14 @@ class MainHandler(BaseHandler):
 
         template = JINJA_ENVIRONMENT.get_template("index.html")
         template_vars = {
-        "weather":resp['forecasts'][0]['telop'],
-        "date":resp['forecasts'][0]['date'],
+        "area":resp['title'],
+        "forecasts":resp['forecasts'],
+        "descriptiondetail":resp['description']['text'],
         }
         self.response.write(template.render(template_vars))
 
-#        sitename  = u''
-#        sitename += resp['forecasts'][0]['date']
+#        html  = u''
+#        html += resp['forecasts'][0]['date']
 #        html += u'の東京の天気は<span style="color:blue">'
 #        html += resp['forecasts'][0]['telop']
 #        html += u'</span>です'
