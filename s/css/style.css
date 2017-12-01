@@ -1,20 +1,17 @@
 /*a {
   color: #9d8351
 }
-
 p {
   font-size: 18px;
   color: color: #333333;
   line-height: 150%
 }
-
 .pc { display: block !important; }
 .sp { display: none !important; }
 @media only screen and (max-width: 750px) {
 .pc { display: none !important; }
 .sp { display: block !important; }
 }
-
 @media only screen and (max-width: 750px) {
 img { max-width: 100%; }
 }
