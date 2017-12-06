@@ -49,6 +49,13 @@ img { max-width: 100%; }
   text-align: center;
 }
 
+.forecasttelop{
+  text-align: center;
+  color:#38424C;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .maxtemperature{
   color:#e6007d;
   font-size: 14px;
